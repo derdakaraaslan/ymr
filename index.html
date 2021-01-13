@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+<head>
+    <title>
+
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/page.css" />
+    <link rel="stylesheet" type="text/css" href="css/Style.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.tabpage > div').hide();
+            $('.tabpage > div:first').show();
+            $('.tabmenu > li:first > a').addClass("aktif");
+            $('.tabmenu > li > a').click(function() {
+                var idno = $(this).attr("data-id");
+                $('.tabmenu > li > a').removeClass("aktif");
+                $(this).toggleClass("aktif");
+                $('.tabpage > div').hide();
+                $(idno).show();
+            });
+        })
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+
+
+
+
+        <div class="col-md-12 col-12">
+            <div class="SayfaBaslik">
+                Yeni Mağaza Rehberi
+            </div>
+            <div class="pageicerik">
+
+
+                <div class="page-ust">
+                    <img src="resim/resim.jpg" alt="offer 3 ">
+                    <div class="hakkimizda">
+                        <h3>n11 Hakkında</h3>
+                        Doğuş Grubu ve Güney Kore’nin en büyük gruplarından SK Group ortaklığında kurulan n11, 150 bin kayıtlı mağazasıyla Türkiye’nin önde gelen e-ticaret alışveriş platformudur. Her gün binlerce kullanıcı tarafından ziyaret edilen n11’de siz de kolayca mağaza
+                        açabilir ve dilediğiniz kategoride satış yapmaya başlayabilirsiniz.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="kutu">
+                            <div class="kutu-icerik">
+                                <i class="las la-wallet"></i>
+                                <h3>Ödeme Güvencesi</h3>
+                                <p>Ödemeleriniz 7 gün sonra mutlaka hesabınıza yatar, paranız n11’de güvende olur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="kutu">
+                            <div class="kutu-icerik">
+                                <i class="las la-clipboard-list"></i>
+                                <h3>Ücretsiz Ürün Listeleme</h3>
+                                <p>n11’deki mağazanıza 1.000 adete kadar ücretsiz ürün yükleyebilirsiniz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="kutu">
+                            <div class="kutu-icerik">
+                                <i class="las la-truck-loading"></i>
+                                <h3>Kargo Avantajları</h3>
+                                <p>n11’in kargo firmalarıyla yaptığı özel anlaşmalar sayesinde siparişlerinizi çok uygun fiyatlarla gönderebilirsiniz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="kutu">
+                            <div class="kutu-icerik">
+                                <i class="las la-shopping-cart"></i>
+                                <h3>Reklam Modelleri ile Daha Çok Satış</h3>
+                                <p>n11 Reklam Platformu’nda yer alan farklı reklam modellerini kullanarak doğru alıcılara ulaşabilir ve böylece satışlarınızı artırabilirsiniz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="kutu">
+                            <div class="kutu-icerik">
+                                <i class="las la-camera"></i>
+                                <h3>Ücretsiz Fotoğraf Çekimi</h3>
+                                <p>Eminönü, İstoç, Ankara, İzmir, Adana ve Antalya bölge ofislerinde ürünleriniz için ücretsiz fotoğraf çekiminden yararlanabilirsiniz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="kutu">
+                            <div class="kutu-icerik">
+                                <i class="las la-globe"></i>
+                                <h3>E-İhracat Fırsatı</h3>
+                                <p>n11 güvencesiyle tek tıkla e-ihracata başlayabilir, yurt dışı pazarına açılarak satışlarınızı katlayabilirsiniz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="kutu">
+                            <div class="kutu-icerik">
+                                <i class="las la-store-alt"></i>
+                                <h3>Tek Mağaza Üzerinden Satış</h3>
+                                <p>Farklı mağazalar açmanıza gerek kalmadan aynı mağaza üzerinden farklı kategorilerde satış yapabilirsiniz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="kutu">
+                            <div class="kutu-icerik">
+                                <i class="las la-sliders-h"></i>
+                                <h3>Uygulama Üzerinden Mağaza Yönetimi</h3>
+                                <p>n11 Mağaza Yönetim Paneli’nin iOS veya Android uygulamalarını indirerek mağaza ve ürünlerinize her an her yerden ulaşabilir, işlerinizi hızlıca halledebilirsiniz.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="nasil-magaza-acarim">
+
+                    <h3>Nasıl Mağaza Açarım?</h3>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WLU3VpzwASQ" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+
+                <h3>Sıkça Sorulan Sorular</h3>
+
+                <ul class="tabmenu">
+                    <li><a href="javascript:;" data-id="#collapsed1">1. n11’de kimler satış yapabilir?</a></li>
+                    <li><a href="javascript:;" data-id="#collapsed2">2. n11.com üyelik sürecinde adımlar nelerdir?</a></li>
+                    <li><a href="javascript:;" data-id="#collapsed3">3. Vergi muafiyetim bulunuyor. n11.com’da satış yapabilir miyim?</a></li>
+                </ul>
+
+                <div class="tabpage">
+                    <div id="collapsed1">Türkiye Cumhuriyeti vergi numarası, e-posta hesabı ve banka hesabına sahip tüm şirketler n11’de satış yapabilir.</div>
+                    <div id="collapsed2">Üyelik Formu Doldurulması - Evrak Yönetimi - Onay Süreci Üyelik Formunun Doldurulması: Seçtiğiniz şirket türüne göre sizden talep edilen bilgilerin doldurulacağı alandır. Evrak Yönetimi: Üyelik formu doldurduktan sonra talep edilen
+                        evrakları sisteme yükleyeceğiniz alandır. Onay Süreci: Evraklarınızın kontrol edileceği ve mağaza üyeliğinizle ürünlerinizin satışa açılmasını sağlayacak son onay sürecidir.</div>
+                    <div id="collapsed3">Yeni çıkarılan kanun uyarınca 30.000 TL’ye kadar vergiden muaf olarak online satış gerçekleştirilebilirsiniz. Evrak yönetimi aşamasında sizden talep edilecek vergi levhası yerine “Esnaf Vergi Muafiyeti Belgesi”ni sisteme yükleyebilirsiniz.
+                        n11.com üzerinden alınan siparişler için fatura kesilmesi zorunludur. Vergi muafiyet kurallarına göre KDV oranı üzerinden faturanızı düzenleyebilirsiniz.</div>
+                </div>
+
+
+
+
+
+
+            </div>
+            <!--  pageicerik bitişi-->
+        </div>
+        <!-- col-md-12 col-12 bitişi-->
+    </div>
+    <!--row ml-0 mr-0 mt-3 mb-3 bitişi-->
+    </div>
+    <!-- container bitişi-->
+
+</body>
+
+</html>
