@@ -1,0 +1,261 @@
+/* yeni mağaza rehberi başlangıç*/
+
+.tabmenu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tabmenu>li {
+    list-style: none;
+    border-bottom: 3px solid rgba(224, 0, 0, 0.815);
+    flex: 1;
+}
+
+.tabmenu>li>a {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tabmenu>li>a.aktif {
+    border: 1px solid rgba(224, 0, 0, 0.815);
+    color: #333;
+}
+
+.tabmenu>li>a:hover {
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    color: #333
+}
+
+.container {
+    width: 1200px!important;
+    max-width: 1200px!important;
+    margin: 0 auto!important;
+}
+
+.tabpage {
+    padding: 20px;
+    margin-bottom: 100px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.kutu {
+    border: 1px solid #eee;
+    padding: 15px;
+    display: table;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+    height: 260px;
+}
+
+.kutu-icerik {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.kutu-icerik i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.nasil-magaza-acarim {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.nasil-magaza-acarim iframe {
+    margin-top: 50px;
+    width: 900px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.page-ust img {
+    width: 100%;
+}
+
+.page-ust {
+    position: relative;
+    width: 100%;
+}
+
+.page-ust .hakkimizda {
+    position: absolute;
+    padding: 15px;
+    bottom: 50px;
+    color: white;
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+    background-color: black;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: center;
+    width: 100%;
+}
+
+.page-ust p {
+    opacity: 1;
+    margin-left: 20%;
+    width: 60%;
+}
+
+@media screen and (max-width: 1200px) {
+    .page-ust div {
+        width: 100%;
+        font-size: 10pt;
+    }
+    .page-ust>.hakkimizda {
+        padding: 0;
+        bottom: 0;
+    }
+    .container {
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    .page-ust img {
+        width: 100%;
+    }
+    iframe {
+        display: none;
+    }
+    .iade {
+        height: 280px!important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .page-ust div {
+        font-size: 9pt;
+    }
+    .page-ust img {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+
+/* yeni mağaza rehberi bitiş*/
+
+
+/* iptai iade değişim başlangıç*/
+
+.iade {
+    position: relative;
+    height: 210px;
+    border: 1px solid #eee;
+    padding: 15px;
+    display: table;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.iade i {
+    font-size: 50px;
+}
+
+.iade h4 {
+    font-size: 20px;
+}
+
+.iadetek {
+    height: 175px;
+    border: 1px solid #eee;
+    padding: 15px;
+    display: table;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.iadetek i {
+    font-size: 50px;
+}
+
+.iadetek h4 {
+    font-size: 20px;
+}
+
+.iadeicerik {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.iid {
+    padding: 15px;
+    margin: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600,700|Roboto');
+.sssbox {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.acc h3 {
+    border: 1px solid rgba(0, 0, 0, .125);
+    font-size: 18px;
+    color: black;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.acc h3:hover {
+    background-color: #d6d5d5;
+}
+
+.acc h3:after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.acc.active h3:after {
+    font-size: 40px;
+    content: '-';
+}
+
+.content {
+    border: 1px rgba(0, 0, 0, .125) solid;
+    background-color: #fff;
+    display: none;
+}
+
+.ssstext {
+    padding: 15px;
+}
+
+.content * {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.acc {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* iptal iade değişim bitiş*/
